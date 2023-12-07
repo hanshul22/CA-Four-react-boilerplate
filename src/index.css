@@ -1,5 +1,32 @@
+:root {
+  --body_background: #9EC8B9;
+  --body_color: #000;
+  /* --body_color: white; */
+  --nev_bar: #2e6d6db2;
+  --main_box_bg_color: #1B4242;
+  --ans_backgroung_color: #abf3d9cd;
+  --btn_color: #61be9e;
+  --btn_hover_color: #70a460;
+  --question_color: #2F7E9E;
+}
+
+[data-theme="dark"] {
+  --body_background: #092635;
+  /* --body_color: #000; */
+  --body_color: white;
+  --nev_bar: #5c8374ac;
+  --main_box_bg_color: #5C8374;
+  --ans_backgroung_color: #1B4242;
+  --btn_color: #1b4242c5;
+  --btn_hover_color: #8dc04e;
+  --question_color: #2F7E9E;
+}
+
+
+
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
