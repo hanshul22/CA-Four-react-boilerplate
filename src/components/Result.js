@@ -6,7 +6,7 @@ export default function Result({ showResult, score, resetQuiz }) {
       {showResult ? (
         <div className="result-container">
           <h2>Quiz Completed!</h2>
-          <h3>Your Score: {score}*100%</h3>
+          <h3>Your Score: {score}</h3>
           <button onClick={resetQuiz}>Restart Quiz</button>
         </div>
       ) : null}
